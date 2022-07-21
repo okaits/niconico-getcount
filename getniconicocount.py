@@ -6,7 +6,6 @@ from xml.etree import ElementTree as et
 url = "https://ext.nicovideo.jp/api/getthumbinfo/" + str(sys.argv[1])
 max = 0
 while True:
-  responce = request.get(url)
   tree = et.fromstring(request.get(url).content)
   response = request.get(url, stream=True)
   response.raw.decode_content = True

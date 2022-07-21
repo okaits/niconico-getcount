@@ -7,7 +7,6 @@ max = 0
 history = []
 first = True
 while True:
-  responce = request.get(url)
   tree = et.fromstring(request.get(url).content)
   response = request.get(url, stream=True)
   response.raw.decode_content = True
