@@ -13,14 +13,14 @@ $ python3 getniconicocountspeed.py sm...
 ```
 
 ### 出力の意味
-getniconicocount.pyの出力
-Equal: aaaaa   取得した情報が前回取得したものと同じことを表します。
-UP-aa: bbbbb   aaは前回取得した値との差、bbbbbは現在の視聴回数を表します。
+getniconicocount.pyの出力:<br>
+Equal: aaaaa   取得した情報が前回取得したものと同じことを表します。<br>
+UP-aa: bbbbb   aaは前回取得した値との差、bbbbbは現在の視聴回数を表します。<br>
 
-getniconicocountspeed.pyの出力
-INIT aaaaa, 0c/m プログラムの実行直後に表示されます。
-SPEED aaac/m     スピードがaaa回/分であることを表します。
-AVG aa.aaaac/m   スピード平均がaaa.aaaa回/分であることを表します。
+getniconicocountspeed.pyの出力:<br>
+INIT aaaaa, 0c/m プログラムの実行直後に表示されます。<br>
+SPEED aaac/m     スピードがaaa回/分であることを表します。<br>
+AVG aa.aaaac/m   スピード平均がaaa.aaaa回/分であることを表します。<br>
 
 ## 注意事項
 * このプログラムはニコニコ動画の`getthumbinfo`というAPIを使用しています。並列に動かすとニコニコ動画のサーバーに負荷がかかってしまうので、控えたほうが良いと思います。
